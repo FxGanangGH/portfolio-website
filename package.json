@@ -1,0 +1,43 @@
+{
+  "name": "portfoliowebsite",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --fix ./src",
+    "format": "prettier --fix ./src"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.1.4",
+    "@tsparticles/slim": "^3.5.0",
+    "animejs": "^3.2.2",
+    "aos": "^2.3.4",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "p5": "^1.9.4",
+    "particles.js": "^2.0.0",
+    "pinia": "^2.1.7",
+    "sal.js": "^0.8.5",
+    "swiper": "^11.1.4",
+    "three": "^0.166.1",
+    "vanta": "^0.5.24",
+    "vue": "^3.4.29",
+    "vue-i18n": "^9.13.1",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.10",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.1",
+    "vue-eslint-parser": "^9.4.3"
+  }
+}
